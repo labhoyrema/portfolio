@@ -158,6 +158,20 @@ body {
   padding: 100px 0;
   padding-bottom: 0px;
 }
+.resume a:hover {
+  color: white;
+  text-decoration: none;
+}
+.download {
+  color: #fde509;
+  padding: 6px 15px;
+  background-color: blueviolet;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.resume {
+  margin-top: 14px;
+}
 .about h1 {
   letter-spacing: 1px;
   text-shadow: 2px 4px 4px grey;
@@ -166,133 +180,6 @@ body {
 .about p {
   letter-spacing: 1px;
   font-size: 16px;
-}
-.space {
-  padding: 100px 0;
-}
-
-.progress-1 {
-  height: 25px;
-  border-radius: 10px;
-  background-color: #5f5c5c;
-  position: relative;
-}
-.progress-1 .progress-html {
-  position: absolute;
-  color: white;
-  border-radius: 10px;
-  padding-top: 3px;
-  height: 100%;
-  width: 90%;
-  background-color: rgba(255, 217, 0, 0.719);
-  animation: progress-bar 5s;
-}
-@keyframes progress-bar {
-  0% {
-    width: 0%;
-  }
-  90% {
-    width: 90%;
-  }
-}
-
-.progress-2 {
-  height: 25px;
-  border-radius: 10px;
-  background-color: #5f5c5c;
-  position: relative;
-}
-.progress-2 .progress-css {
-  position: absolute;
-  color: white;
-  border-radius: 10px;
-  padding-top: 3px;
-  height: 100%;
-  width: 85%;
-  background-color: rgba(255, 217, 0, 0.719);
-  animation: progress-bar2 6s;
-}
-@keyframes progress-bar2 {
-  0% {
-    width: 0%;
-  }
-  85% {
-    width: 85%;
-  }
-}
-.progress-3 {
-  height: 25px;
-  border-radius: 10px;
-  background-color: #5f5c5c;
-  position: relative;
-}
-.progress-3 .progress-java {
-  position: absolute;
-  color: white;
-  border-radius: 10px;
-  padding-top: 3px;
-  height: 100%;
-  width: 75%;
-  background-color: rgba(255, 217, 0, 0.719);
-  animation: progress-bar3 7s;
-}
-@keyframes progress-bar3 {
-  0% {
-    width: 0%;
-  }
-  75% {
-    width: 75%;
-  }
-}
-
-.progress-4 {
-  height: 25px;
-  border-radius: 10px;
-  background-color: #5f5c5c;
-  position: relative;
-}
-.progress-4 .progress-react {
-  position: absolute;
-  color: white;
-  border-radius: 10px;
-  padding-top: 3px;
-  height: 100%;
-  width: 70%;
-  background-color: rgba(255, 217, 0, 0.719);
-  animation: progress-bar4 8s;
-}
-@keyframes progress-bar4 {
-  0% {
-    width: 0%;
-  }
-  70% {
-    width: 70%;
-  }
-}
-
-.progress-5 {
-  height: 25px;
-  border-radius: 10px;
-  background-color: #5f5c5c;
-  position: relative;
-}
-.progress-5 .progress-node {
-  position: absolute;
-  color: white;
-  border-radius: 10px;
-  padding-top: 3px;
-  height: 100%;
-  width: 60%;
-  background-color: rgba(255, 217, 0, 0.719);
-  animation: progress-bar5 9s;
-}
-@keyframes progress-bar5 {
-  0% {
-    width: 0%;
-  }
-  60% {
-    width: 60%;
-  }
 }
 
 @media only screen and (max-width: 768px) {
